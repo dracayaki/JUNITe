@@ -30,7 +30,7 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
                     System.out.println("Inserta el nombre del nuevo alumno:");
                     String nuevoNombre = sc.nextLine();
 
-                    alumnos = añadeNombre(alumnos, nuevoNombre);
+                    alumnos = anadeNombre(alumnos, nuevoNombre);
                     alturas = añadeAltura(alturas);
                     break;
 
@@ -124,7 +124,7 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
      * @param array,nombre
      * @return nuevo
      */
-    static String[] añadeNombre(String[] array, String nombre)
+    static String[] anadeNombre(String[] array, String nombre)
     {
         String[] nuevo = new String[array.length+1];
 
